@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+.idea/
+.vscode/
+*.log
+.DS_Store
+config.local.json

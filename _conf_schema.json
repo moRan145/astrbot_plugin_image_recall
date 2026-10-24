@@ -1,0 +1,28 @@
+{
+  "enabled": {
+    "type": "bool",
+    "description": "启用按需识图",
+    "default": true
+  },
+  "vision_provider_id": {
+    "type": "string",
+    "description": "视觉模型 Provider ID",
+    "hint": "例如 deepseek/deepseek-flash",
+    "default": "deepseek/deepseek-flash"
+  },
+  "max_recent_images": {
+    "type": "int",
+    "description": "每个会话缓存的最近图片数",
+    "default": 20
+  },
+  "timeout": {
+    "type": "int",
+    "description": "单张图片识别超时（秒）",
+    "default": 90
+  },
+  "prompt": {
+    "type": "text",
+    "description": "识图提示词",
+    "default": ""
+  }
+}
