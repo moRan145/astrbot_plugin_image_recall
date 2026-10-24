@@ -42,7 +42,7 @@ AstrBot 插件：平时只在内存里缓存最近图片，**不调用视觉模�
 
 ```bash
 cd AstrBot/data/plugins
-git clone https://github.com/your-name/astrbot_plugin_image_recall.git
+git clone https://github.com/moRan145/astrbot_plugin_image_recall.git
 ```
 
 或者在 AstrBot 插件目录中新建 `astrbot_plugin_image_recall` 文件夹，把本仓库文件放进去：
