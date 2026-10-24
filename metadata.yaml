@@ -6,7 +6,7 @@ desc: >-
   本项目由 AI（DeepSeek Harness）根据用户需求实现，代码与文档由 AI 起草，请自行审查。
 help: 直接发图不会识别；需要时 @ 机器人问“上面那张图是什么”“看看刚才的图”。
 version: 0.1.1
-author: DSH
+author: moRan145
 repo: https://github.com/moRan145/astrbot_plugin_image_recall
 astrbot_version: ">=4.16,<5"
 support_platforms:
@@ -14,5 +14,6 @@ support_platforms:
 tags:
   - image
   - vision
+  - ocr
+  - qqbot
   - ai
-  - qq

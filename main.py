@@ -25,10 +25,10 @@ CN_NUM = {"一": 1, "二": 2, "两": 2, "三": 3, "四": 4, "五": 5, "六": 6, 
 
 @register(
     "astrbot_plugin_image_recall",
-    "DSH",
+    "moRan145",
     "按需识图：平时只缓存最近图片，用户问图时再调用视觉模型识别并注入上下文。",
-    "0.1.0",
-    "https://github.com/",
+    "0.1.1",
+    "https://github.com/moRan145/astrbot_plugin_image_recall",
 )
 class ImageRecallPlugin(Star):
     def __init__(self, context: Context, config: AstrBotConfig | dict | None = None):
